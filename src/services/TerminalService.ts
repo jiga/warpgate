@@ -364,7 +364,7 @@ export class TerminalService {
  * Only used for the copy-to-clipboard display string, never for execution.
  */
 function shellEscape(arg: string): string {
-  if (/^[a-zA-Z0-9@._:\/~-]+$/.test(arg)) {
+  if (/^[a-zA-Z0-9@._:/~-]+$/.test(arg)) {
     return arg;
   }
   return `'${arg.replace(/'/g, "'\\''")}'`;

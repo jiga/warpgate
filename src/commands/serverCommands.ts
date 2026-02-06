@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import * as os from 'os';
 import { StorageService } from '../services/StorageService';
 import { ValidationService } from '../services/ValidationService';
 import { TerminalService } from '../services/TerminalService';
@@ -87,7 +88,7 @@ async function addServer(
     const fileUri = await vscode.window.showOpenDialog({
       title: 'Select SSH Identity File',
       canSelectMany: false,
-      defaultUri: vscode.Uri.file(require('os').homedir() + '/.ssh/'),
+      defaultUri: vscode.Uri.file(os.homedir() + '/.ssh/'),
       openLabel: 'Select Key',
     });
     if (fileUri?.[0]) {
@@ -198,7 +199,7 @@ async function editServer(
         const fileUri = await vscode.window.showOpenDialog({
           title: 'Select SSH Identity File',
           canSelectMany: false,
-          defaultUri: vscode.Uri.file(require('os').homedir() + '/.ssh/'),
+          defaultUri: vscode.Uri.file(os.homedir() + '/.ssh/'),
         });
         if (fileUri?.[0]) {
           const result = validation.validateIdentityFile(fileUri[0].fsPath);
