@@ -2,7 +2,7 @@
   "name": "warpgate",
   "displayName": "WarpGate",
   "description": "SSH server management with workspace-scoped server lists, SSH config import, and terminal-based connections",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "j2p2",
   "license": "MIT",
   "icon": "resources/warpgate-icon.png",
