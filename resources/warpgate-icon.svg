@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="256" height="256" rx="24" fill="#1A1A2E"/>
+
+  <!-- Outer ring -->
+  <circle cx="128" cy="138" r="80" stroke="#4FC3F7" stroke-width="6" fill="none" opacity="0.3"/>
+
+  <!-- Middle ring -->
+  <circle cx="128" cy="138" r="55" stroke="#4FC3F7" stroke-width="5" fill="none" opacity="0.6"/>
+
+  <!-- Inner ring -->
+  <circle cx="128" cy="138" r="30" stroke="#4FC3F7" stroke-width="4" fill="none" opacity="0.85"/>
+
+  <!-- Core dot -->
+  <circle cx="128" cy="138" r="10" fill="#4FC3F7"/>
+
+  <!-- Warp arrow (top-right) -->
+  <path d="M185 60L218 60L218 93" stroke="#FF6B6B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M170 108L218 60" stroke="#FF6B6B" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- SSH terminal cursor blink -->
+  <rect x="122" y="212" width="12" height="3" rx="1" fill="#4FC3F7" opacity="0.8"/>
+
+  <!-- Title: WARPGATE -->
+  <text x="128" y="238" text-anchor="middle" font-family="monospace, Consolas, 'Courier New'" font-size="18" font-weight="bold" fill="#8892B0" letter-spacing="4">WARPGATE</text>
+</svg>
