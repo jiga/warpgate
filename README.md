@@ -13,7 +13,7 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=j2p2.warpgate"><img src="https://img.shields.io/visual-studio-marketplace/v/j2p2.warpgate?label=VS%20Code%20Marketplace&color=blue" alt="VS Code Marketplace"></a>
   <a href="https://marketplace.visualstudio.com/items?itemName=j2p2.warpgate"><img src="https://img.shields.io/visual-studio-marketplace/i/j2p2.warpgate?color=green" alt="Installs"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
-  <a href="https://github.com/jignesh/warpgate/actions/workflows/ci.yml"><img src="https://github.com/jignesh/warpgate/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/jiga/warpgate/actions/workflows/ci.yml"><img src="https://github.com/jiga/warpgate/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
 </p>
 
 ---
@@ -138,7 +138,7 @@ WarpGate is designed with security as a first-class concern:
 ### Setup
 
 ```sh
-git clone https://github.com/jignesh/warpgate.git
+git clone https://github.com/jiga/warpgate.git
 cd warpgate
 npm install
 ```
@@ -256,4 +256,4 @@ This requires a `VSCE_PAT` secret configured in your GitHub repository settings.
 
 ## License
 
-[MIT](LICENSE) — built by [Jignesh](https://github.com/jignesh)
+[MIT](LICENSE) — built by [jiga](https://github.com/jiga)
