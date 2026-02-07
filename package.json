@@ -2,17 +2,17 @@
   "name": "warpgate",
   "displayName": "WarpGate",
   "description": "SSH server management with workspace-scoped server lists, SSH config import, and terminal-based connections",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "j2p2",
   "license": "MIT",
   "icon": "resources/warpgate-icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jignesh/warpgate"
+    "url": "https://github.com/jiga/warpgate"
   },
-  "homepage": "https://github.com/jignesh/warpgate#readme",
+  "homepage": "https://github.com/jiga/warpgate#readme",
   "bugs": {
-    "url": "https://github.com/jignesh/warpgate/issues"
+    "url": "https://github.com/jiga/warpgate/issues"
   },
   "engines": {
     "vscode": "^1.85.0"
